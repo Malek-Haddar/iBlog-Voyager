@@ -105,9 +105,9 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @php
+                                   {{--  @php
                                     if(!Auth::user()->hasRole('admin')) $dataTypeContent = $dataTypeContent->where('owner_id','=', Auth::user()->id)
-                                    @endphp
+                                    @endphp --}}
                                     @foreach($dataTypeContent as $data)
                                     <tr>
                                         @if($showCheckboxColumn)

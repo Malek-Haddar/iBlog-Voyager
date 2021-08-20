@@ -31,10 +31,7 @@ class Article extends Model
 
         return parent::save();
     }
-    /* public function getRouteKeyName()
-    {
-        return $this->getKeyName();
-    } */
+
 
 
     public static function boot()
