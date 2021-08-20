@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+//route model binding
+/* route::get('/users/{user}',); */
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

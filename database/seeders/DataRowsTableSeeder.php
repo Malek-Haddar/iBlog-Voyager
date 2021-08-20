@@ -385,7 +385,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 3,
+                'order' => 2,
             ),
             23 => 
             array (
@@ -400,8 +400,8 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"slugify":{"origin":"title","forceUpdate":true}}',
-                'order' => 4,
+                'details' => '{}',
+                'order' => 3,
             ),
             24 => 
             array (
@@ -417,7 +417,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 5,
+                'order' => 4,
             ),
             25 => 
             array (
@@ -433,7 +433,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 6,
+                'order' => 5,
             ),
             26 => 
             array (
@@ -449,7 +449,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 1,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 7,
+                'order' => 6,
             ),
             27 => 
             array (
@@ -465,7 +465,7 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 0,
                 'delete' => 1,
                 'details' => '{}',
-                'order' => 8,
+                'order' => 7,
             ),
             28 => 
             array (
@@ -481,41 +481,9 @@ class DataRowsTableSeeder extends Seeder
                 'add' => 0,
                 'delete' => 0,
                 'details' => '{}',
-                'order' => 9,
+                'order' => 8,
             ),
             29 => 
-            array (
-                'id' => 30,
-                'data_type_id' => 4,
-                'field' => 'article_belongsto_user_relationship',
-                'type' => 'relationship',
-                'display_name' => 'users',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{"model":"App\\\\Models\\\\User","table":"users","type":"belongsTo","column":"user_id","key":"id","label":"name","pivot_table":"articles","pivot":"0","taggable":"0"}',
-                'order' => 2,
-            ),
-            30 => 
-            array (
-                'id' => 31,
-                'data_type_id' => 4,
-                'field' => 'user_id',
-                'type' => 'text',
-                'display_name' => 'User Id',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 10,
-            ),
-            31 => 
             array (
                 'id' => 36,
                 'data_type_id' => 4,
@@ -528,10 +496,10 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"model":"App\\\\Models\\\\Article","table":"tags","type":"belongsToMany","column":"id","key":"id","label":"name","pivot_table":"article_tag","pivot":"1","taggable":"on"}',
-                'order' => 11,
+                'details' => '{"model":"App\\\\Models\\\\Tag","table":"tags","type":"belongsToMany","column":"id","key":"id","label":"name","pivot_table":"article_tag","pivot":"1","taggable":"on"}',
+                'order' => 10,
             ),
-            32 => 
+            30 => 
             array (
                 'id' => 37,
                 'data_type_id' => 9,
@@ -547,7 +515,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            33 => 
+            31 => 
             array (
                 'id' => 38,
                 'data_type_id' => 9,
@@ -563,7 +531,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            34 => 
+            32 => 
             array (
                 'id' => 39,
                 'data_type_id' => 9,
@@ -579,7 +547,7 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 3,
             ),
-            35 => 
+            33 => 
             array (
                 'id' => 40,
                 'data_type_id' => 9,
@@ -594,6 +562,38 @@ class DataRowsTableSeeder extends Seeder
                 'delete' => 0,
                 'details' => '{}',
                 'order' => 4,
+            ),
+            34 => 
+            array (
+                'id' => 41,
+                'data_type_id' => 4,
+                'field' => 'owner_id',
+                'type' => 'text',
+                'display_name' => 'Owner id',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 9,
+            ),
+            35 => 
+            array (
+                'id' => 42,
+                'data_type_id' => 4,
+                'field' => 'article_belongsto_user_relationship',
+                'type' => 'relationship',
+                'display_name' => 'Owner',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{"model":"App\\\\Models\\\\User","table":"users","type":"belongsTo","column":"owner_id","key":"id","label":"name","pivot_table":"article","pivot":"0","taggable":"0"}',
+                'order' => 11,
             ),
         ));
         
