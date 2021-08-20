@@ -17,7 +17,7 @@ class Article extends Model
 
 
 
-    public function scopeCurrentUser($query)
+    /* public function scopeCurrentUser($query)
     {
         return Auth::user()->hasRole('admin') ? $query : $query->where('owner_id', Auth::user()->id);
     }
@@ -30,7 +30,7 @@ class Article extends Model
         }
 
         return parent::save();
-    }
+    } */
 
 
 
