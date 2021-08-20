@@ -11,7 +11,6 @@ class User extends \TCG\Voyager\Models\User
 {
     use HasFactory, Notifiable;
 
-
     /**
      * The attributes that are mass assignable.
      *

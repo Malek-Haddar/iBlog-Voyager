@@ -49,6 +49,7 @@ class VoyagerBaseController extends BaseVoyagerBaseController
 
         $isSoftDeleted = false;
 
+
         if (strlen($dataType->model_name) != 0) {
             $model = app($dataType->model_name);
             $query = $model->query();
@@ -96,6 +97,7 @@ class VoyagerBaseController extends BaseVoyagerBaseController
         if (view()->exists("voyager::$slug.read")) {
             $view = "voyager::$slug.read";
         }
+
 
         return Voyager::view($view, compact('dataType', 'dataTypeContent', 'isModelTranslatable', 'isSoftDeleted'));
     }
