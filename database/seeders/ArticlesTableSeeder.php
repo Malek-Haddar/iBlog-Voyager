@@ -76,8 +76,8 @@ class ArticlesTableSeeder extends Seeder
                 'cover' => 'articles\\August2021\\30ZIeug4nDavlowaxs7p.jpg',
                 'image' => 'articles\\August2021\\7AuFVnsyjQeYpkwBFd0v.jpg',
                 'owner_id' => 1,
-                'created_at' => '2021-08-20 22:58:13',
-                'updated_at' => '2021-08-20 22:58:13',
+                'created_at' => '2021-08-20 22:58:00',
+                'updated_at' => '2021-08-23 23:33:48',
             ),
         ));
         

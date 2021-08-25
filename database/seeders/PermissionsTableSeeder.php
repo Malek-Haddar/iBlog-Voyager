@@ -347,6 +347,46 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-17 23:30:08',
                 'updated_at' => '2021-08-17 23:30:08',
             ),
+            41 => 
+            array (
+                'id' => 57,
+                'key' => 'browse_categories',
+                'table_name' => 'categories',
+                'created_at' => '2021-08-23 23:17:22',
+                'updated_at' => '2021-08-23 23:17:22',
+            ),
+            42 => 
+            array (
+                'id' => 58,
+                'key' => 'read_categories',
+                'table_name' => 'categories',
+                'created_at' => '2021-08-23 23:17:22',
+                'updated_at' => '2021-08-23 23:17:22',
+            ),
+            43 => 
+            array (
+                'id' => 59,
+                'key' => 'edit_categories',
+                'table_name' => 'categories',
+                'created_at' => '2021-08-23 23:17:22',
+                'updated_at' => '2021-08-23 23:17:22',
+            ),
+            44 => 
+            array (
+                'id' => 60,
+                'key' => 'add_categories',
+                'table_name' => 'categories',
+                'created_at' => '2021-08-23 23:17:22',
+                'updated_at' => '2021-08-23 23:17:22',
+            ),
+            45 => 
+            array (
+                'id' => 61,
+                'key' => 'delete_categories',
+                'table_name' => 'categories',
+                'created_at' => '2021-08-23 23:17:22',
+                'updated_at' => '2021-08-23 23:17:22',
+            ),
         ));
         
         
