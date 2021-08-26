@@ -21,12 +21,21 @@ class CommentsTableSeeder extends Seeder
         \DB::table('comments')->insert(array (
             0 => 
             array (
-                'id' => 1,
-                'name' => 'great job <3',
-                'approved' => 1,
-                'created_at' => '2021-08-26 13:31:00',
-                'updated_at' => '2021-08-26 14:02:41',
-                'article_id' => NULL,
+                'id' => 11,
+                'name' => 'ok',
+                'approved' => '1',
+                'created_at' => '2021-08-26 16:58:45',
+                'updated_at' => '2021-08-26 16:58:45',
+                'user_id' => 2,
+            ),
+            1 => 
+            array (
+                'id' => 12,
+                'name' => 'okok',
+                'approved' => '0',
+                'created_at' => '2021-08-26 17:02:44',
+                'updated_at' => '2021-08-26 17:02:44',
+                'user_id' => 2,
             ),
         ));
         
