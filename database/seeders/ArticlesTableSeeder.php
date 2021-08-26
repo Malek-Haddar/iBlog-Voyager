@@ -79,6 +79,18 @@ class ArticlesTableSeeder extends Seeder
                 'created_at' => '2021-08-20 22:58:00',
                 'updated_at' => '2021-08-23 23:33:48',
             ),
+            5 => 
+            array (
+                'id' => 16,
+                'title' => 'Github copilot',
+                'slug' => 'github-copilot',
+                'body' => '<p>new github innovation !!</p>',
+                'cover' => 'articles\\August2021\\Aw3pkGb0pmXO0BcbZHWg.jpg',
+                'image' => 'articles\\August2021\\zpJxbVw6jJImojGaIjT3.jpg',
+                'owner_id' => 2,
+                'created_at' => '2021-08-26 14:02:05',
+                'updated_at' => '2021-08-26 14:02:05',
+            ),
         ));
         
         

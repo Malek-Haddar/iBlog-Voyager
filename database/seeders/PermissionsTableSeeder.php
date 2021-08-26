@@ -269,53 +269,13 @@ class PermissionsTableSeeder extends Seeder
             ),
             31 => 
             array (
-                'id' => 47,
-                'key' => 'browse_article_tag',
-                'table_name' => 'article_tag',
-                'created_at' => '2021-08-17 23:29:21',
-                'updated_at' => '2021-08-17 23:29:21',
-            ),
-            32 => 
-            array (
-                'id' => 48,
-                'key' => 'read_article_tag',
-                'table_name' => 'article_tag',
-                'created_at' => '2021-08-17 23:29:21',
-                'updated_at' => '2021-08-17 23:29:21',
-            ),
-            33 => 
-            array (
-                'id' => 49,
-                'key' => 'edit_article_tag',
-                'table_name' => 'article_tag',
-                'created_at' => '2021-08-17 23:29:21',
-                'updated_at' => '2021-08-17 23:29:21',
-            ),
-            34 => 
-            array (
-                'id' => 50,
-                'key' => 'add_article_tag',
-                'table_name' => 'article_tag',
-                'created_at' => '2021-08-17 23:29:21',
-                'updated_at' => '2021-08-17 23:29:21',
-            ),
-            35 => 
-            array (
-                'id' => 51,
-                'key' => 'delete_article_tag',
-                'table_name' => 'article_tag',
-                'created_at' => '2021-08-17 23:29:21',
-                'updated_at' => '2021-08-17 23:29:21',
-            ),
-            36 => 
-            array (
                 'id' => 52,
                 'key' => 'browse_tags',
                 'table_name' => 'tags',
                 'created_at' => '2021-08-17 23:30:08',
                 'updated_at' => '2021-08-17 23:30:08',
             ),
-            37 => 
+            32 => 
             array (
                 'id' => 53,
                 'key' => 'read_tags',
@@ -323,7 +283,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-17 23:30:08',
                 'updated_at' => '2021-08-17 23:30:08',
             ),
-            38 => 
+            33 => 
             array (
                 'id' => 54,
                 'key' => 'edit_tags',
@@ -331,7 +291,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-17 23:30:08',
                 'updated_at' => '2021-08-17 23:30:08',
             ),
-            39 => 
+            34 => 
             array (
                 'id' => 55,
                 'key' => 'add_tags',
@@ -339,7 +299,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-17 23:30:08',
                 'updated_at' => '2021-08-17 23:30:08',
             ),
-            40 => 
+            35 => 
             array (
                 'id' => 56,
                 'key' => 'delete_tags',
@@ -347,7 +307,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-17 23:30:08',
                 'updated_at' => '2021-08-17 23:30:08',
             ),
-            41 => 
+            36 => 
             array (
                 'id' => 57,
                 'key' => 'browse_categories',
@@ -355,7 +315,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-23 23:17:22',
                 'updated_at' => '2021-08-23 23:17:22',
             ),
-            42 => 
+            37 => 
             array (
                 'id' => 58,
                 'key' => 'read_categories',
@@ -363,7 +323,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-23 23:17:22',
                 'updated_at' => '2021-08-23 23:17:22',
             ),
-            43 => 
+            38 => 
             array (
                 'id' => 59,
                 'key' => 'edit_categories',
@@ -371,7 +331,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-23 23:17:22',
                 'updated_at' => '2021-08-23 23:17:22',
             ),
-            44 => 
+            39 => 
             array (
                 'id' => 60,
                 'key' => 'add_categories',
@@ -379,7 +339,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-23 23:17:22',
                 'updated_at' => '2021-08-23 23:17:22',
             ),
-            45 => 
+            40 => 
             array (
                 'id' => 61,
                 'key' => 'delete_categories',
@@ -387,7 +347,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-23 23:17:22',
                 'updated_at' => '2021-08-23 23:17:22',
             ),
-            46 => 
+            41 => 
             array (
                 'id' => 67,
                 'key' => 'browse_comments',
@@ -395,7 +355,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-26 09:22:06',
                 'updated_at' => '2021-08-26 09:22:06',
             ),
-            47 => 
+            42 => 
             array (
                 'id' => 68,
                 'key' => 'read_comments',
@@ -403,7 +363,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-26 09:22:06',
                 'updated_at' => '2021-08-26 09:22:06',
             ),
-            48 => 
+            43 => 
             array (
                 'id' => 69,
                 'key' => 'edit_comments',
@@ -411,7 +371,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-26 09:22:06',
                 'updated_at' => '2021-08-26 09:22:06',
             ),
-            49 => 
+            44 => 
             array (
                 'id' => 70,
                 'key' => 'add_comments',
@@ -419,7 +379,7 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2021-08-26 09:22:06',
                 'updated_at' => '2021-08-26 09:22:06',
             ),
-            50 => 
+            45 => 
             array (
                 'id' => 71,
                 'key' => 'delete_comments',

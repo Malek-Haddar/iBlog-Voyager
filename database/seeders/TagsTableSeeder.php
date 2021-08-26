@@ -187,6 +187,13 @@ class TagsTableSeeder extends Seeder
                 'created_at' => '2021-08-23 10:21:17',
                 'updated_at' => '2021-08-23 10:21:17',
             ),
+            24 => 
+            array (
+                'id' => 26,
+                'name' => 'github',
+                'created_at' => '2021-08-26 14:01:29',
+                'updated_at' => '2021-08-26 14:01:29',
+            ),
         ));
         
         

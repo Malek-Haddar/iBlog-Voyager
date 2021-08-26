@@ -18,14 +18,17 @@ class DatabaseSeeder extends Seeder
         $this->call(DataRowsTableSeeder::class);
         $this->call(MenusTableSeeder::class);
         $this->call(MenuItemsTableSeeder::class);
-        $this->call(RolesTableSeeder::class);
         $this->call(PermissionsTableSeeder::class);
         $this->call(PermissionRoleTableSeeder::class);
         $this->call(SettingsTableSeeder::class);
-        $this->call(UsersTableSeeder::class);
         $this->call(ArticlesTableSeeder::class);
         $this->call(TagsTableSeeder::class);
         $this->call(CategoriesTableSeeder::class);
+        $this->call(ArticleCategoriesTableSeeder::class);
+        $this->call(ArticleTagsTableSeeder::class);
+        $this->call(RolesTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
+        $this->call(UserRolesTableSeeder::class);
         $this->call(CommentsTableSeeder::class);
     }
 }

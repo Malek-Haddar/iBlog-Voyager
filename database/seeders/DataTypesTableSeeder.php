@@ -89,27 +89,9 @@ class DataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":"currentUser"}',
                 'created_at' => '2021-08-17 09:30:05',
-                'updated_at' => '2021-08-26 08:51:34',
+                'updated_at' => '2021-08-26 14:04:46',
             ),
             4 => 
-            array (
-                'id' => 8,
-                'name' => 'article_tag',
-                'slug' => 'article-tag',
-                'display_name_singular' => 'Article Tag',
-                'display_name_plural' => 'Article Tags',
-                'icon' => NULL,
-                'model_name' => 'App\\Models\\ArticleTag',
-                'policy_name' => NULL,
-                'controller' => NULL,
-                'description' => NULL,
-                'generate_permissions' => 1,
-                'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
-                'created_at' => '2021-08-17 23:29:21',
-                'updated_at' => '2021-08-17 23:29:21',
-            ),
-            5 => 
             array (
                 'id' => 9,
                 'name' => 'tags',
@@ -127,7 +109,7 @@ class DataTypesTableSeeder extends Seeder
                 'created_at' => '2021-08-17 23:30:08',
                 'updated_at' => '2021-08-17 23:42:33',
             ),
-            6 => 
+            5 => 
             array (
                 'id' => 12,
                 'name' => 'categories',
@@ -144,6 +126,24 @@ class DataTypesTableSeeder extends Seeder
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2021-08-23 23:17:22',
                 'updated_at' => '2021-08-23 23:22:17',
+            ),
+            6 => 
+            array (
+                'id' => 13,
+                'name' => 'comments',
+                'slug' => 'comments',
+                'display_name_singular' => 'Comment',
+                'display_name_plural' => 'Comments',
+                'icon' => 'voyager-edit',
+                'model_name' => 'App\\Models\\Comment',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2021-08-26 13:19:35',
+                'updated_at' => '2021-08-26 13:37:24',
             ),
         ));
         
